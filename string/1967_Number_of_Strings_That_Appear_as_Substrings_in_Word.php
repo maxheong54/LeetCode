@@ -19,8 +19,7 @@ Explanation:
 
 Example 2:
 
-Input: patterns = ["a","b","c"], word = "aaaaabbbbb"
-Output: 2
+Input: patterns = ["a","b","c"], word = "aaaaabbbbb"se
 Explanation:
 - "a" appears as a substring in "aaaaabbbbb".
 - "b" appears as a substring in "aaaaabbbbb".
