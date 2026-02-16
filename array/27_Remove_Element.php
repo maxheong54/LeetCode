@@ -72,18 +72,18 @@ function removeElement(&$nums, $val) {
     return $last + 1;
 }
 
-function removeElement1(&$nums, $val) {
-    $k = 0;
+// function removeElement(&$nums, $val) {
+//     $k = 0;
 
-    for ($i = 0, $len = count($nums); $i < $len; $i++) {
-        if ($nums[$i] !== $val) {
-            $nums[$k] = $nums[$i];
-            $k++;
-        }
-    }
+//     for ($i = 0, $len = count($nums); $i < $len; $i++) {
+//         if ($nums[$i] !== $val) {
+//             $nums[$k] = $nums[$i];
+//             $k++;
+//         }
+//     }
 
-    return $k;
-}
+//     return $k;
+// }
 
 $a = [3,2,2,3];
 dump(removeElement($a, 3));
