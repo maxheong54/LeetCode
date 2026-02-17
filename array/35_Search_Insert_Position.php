@@ -54,21 +54,6 @@ function searchInsert(array $nums, int $target): int {
     return $left;
 }
 
-// function searchInsert(array $nums, int $target): int {
-//     $i = 0;
-//     $size = count($nums);
-
-//     while ($i < $size) {
-//         if ($nums[$i] === $target) return $i;
-//         if ($nums[$i] > $target) {
-//             return $i > 0 ? $i : 0;
-//         }
-//         $i++;
-//     }
-
-//     return $i;
-// }
-
 dd(
     searchInsert([1,3,5,6], 5)
 );
