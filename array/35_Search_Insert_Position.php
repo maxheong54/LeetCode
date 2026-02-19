@@ -54,6 +54,6 @@ function searchInsert(array $nums, int $target): int {
     return $left;
 }
 
-dd(
+dd( 
     searchInsert([1,3,5,6], 5)
 );
